@@ -43,7 +43,7 @@ const GoogleRecaptchaComponent = () => {
             return new Promise(function(resolve, reject) {
               fetch(`https://www.google.com/recaptcha/api/siteverify`, {
                 params: {
-                secret: "6LcA_3siAAAAAEbQeWnvUuZqNfKJM36STlbObAZX",
+                secret: "_Site_Secrect",
                 response: token
                 }
   
